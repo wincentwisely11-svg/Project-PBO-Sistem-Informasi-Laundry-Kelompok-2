@@ -1,22 +1,22 @@
-public class Admin {
+public class User {
 
-    private String idAdmin;
+    private String idUser;
     private String nama;
     private String username;
     private String password;
 
-    public Admin(String idAdmin, String nama, String username, String password) {
-        this.idAdmin = idAdmin;
+    public User(String idUser, String nama, String username, String password) {
+        this.idUser = idUser;
         this.nama = nama;
         this.username = username;
         this.password = password;
     }
     
-    public String getIdAdmin() {
-        return idAdmin;
+    public String getIdUser() {
+        return idUser;
     }
-    public void setIdAdmin(String idAdmin) {
-        this.idAdmin = idAdmin;
+    public void setIdUser(String idUser) {
+        this.idUser = idUser;
     }
 
     public String getNama() {
