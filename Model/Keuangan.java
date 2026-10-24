@@ -1,13 +1,4 @@
-// public class Keuangan {
-// idTransaksi (String)
-// tanggal (LocalDate atau String)
-// idPelanggan (String), atau objek Pelanggan jika ingin langsung memakai relasi antar class
-// kodeLayanan (String), atau objek Layanan
-// jumlah (double), berat atau jumlah potong
-// totalBayar (double)
-// statusBayar (String), misalnya “Lunas” atau “Belum”
-
-public class Keuangan{
+public class Keuangan {
     private String idTransaksi;
     private String tanggal;
     private String idPelanggan;
