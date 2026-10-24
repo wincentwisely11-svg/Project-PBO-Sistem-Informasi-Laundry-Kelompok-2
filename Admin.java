@@ -5,6 +5,13 @@ public class Admin {
     private String username;
     private String password;
 
+    public Admin(String idAdmin, String nama, String username, String password) {
+        this.idAdmin = idAdmin;
+        this.nama = nama;
+        this.username = username;
+        this.password = password;
+    }
+    
     public String getIdAdmin() {
         return idAdmin;
     }
