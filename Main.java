@@ -24,7 +24,7 @@ public class Main {
             // ===== Proses pilihan =====
             switch (pilihan) {
                 case 1:
-                    userdao.menuUser(input);
+                    customerdao.menuUser(input);
                     break;
                 case 2:
                     layanandao.menuLayanan(input); 
